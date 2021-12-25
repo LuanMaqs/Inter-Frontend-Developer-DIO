@@ -1,0 +1,20 @@
+Ainda em desenvolvimento
+
+package String;
+
+public class Builder {
+    public static void main(String[] args){
+
+        var nome = "Luan";
+
+        final var builder = new StringBuilder(nome);
+        System.out.println(builder.append("Marques"));
+
+        final var reverse = builder.reverse();
+
+        System.out.println(reverse);
+
+        final var insert = reverse.insert(0, "#").insert(reverse.length(), "#");
+        System.out.println(insert);
+    }
+}
