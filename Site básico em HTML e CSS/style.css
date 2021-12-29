@@ -1,8 +1,12 @@
 body{
-    background: #ccc;
+    background: grey;
 }
 
 
+.photo{
+    border: 1px solid rgb(0, 89, 255);
+    border-radius: 100px;
+}
 
 #title, .subtitle .post_title .texto .post {
     color: white;
@@ -11,8 +15,9 @@ body{
 .post_title{
     font-size: 16px;
     font-style: italic;
-    color: blue;
+    color: rgb(2, 161, 153);
     margin: 0px;
+    margin-bottom: 15px;
 }
 
 .subtitle{
@@ -23,12 +28,18 @@ body{
 .texto{
     font-style: oblique;
     font-size: 18px;
-    color: green;
+    color: rgb(0, 197, 0);
 }
 
 .post{
-    background: #fff;
-    padding: 10px;
-    border: 3px solid black;
-    margin: 10px;
+    background: black;
+    padding: 15px;
+    border: 3px solid purple;
+    margin: 0px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+
+.post_image{
+    margin-bottom: 15px;
 }
